@@ -39,7 +39,8 @@ solar-challenge-week1/
 │   ├── benin.ipynb            # Benin EDA
 │   ├── sierraleone.ipynb      # Sierra Leone EDA
 │   ├── togo.ipynb             # Togo EDA
-│   └── compare_countries.ipynb # Cross-country comparison
+│   ├── compare_countries.ipynb # Cross-country comparison
+│   └── summary_dashboard.ipynb # Consolidated dashboard (all visuals)
 └── scripts/                    # Utility scripts
     ├── generate_eda_notebooks.py
     └── generate_comparison_notebook.py
@@ -76,7 +77,17 @@ Each notebook:
 jupyter notebook notebooks/compare_countries.ipynb
 ```
 
-This notebook loads cleaned CSVs and performs statistical comparisons.
+**3. Consolidated Summary Dashboard** (recommended - all visuals in one place):
+
+```bash
+jupyter notebook notebooks/summary_dashboard.ipynb
+```
+
+This comprehensive dashboard:
+- Centralizes all comparative visualizations
+- Exports figures to `figures/` directory
+- Exports summary reports to `summary/` directory
+- Provides explicit export locations for all outputs
 
 ### Running Scripts
 
